@@ -28,23 +28,23 @@ export default function Navbar() {
         <ul className="links">
           <li>
             <a href="#home" className="active">
-              Home
+              INICIO
             </a>
           </li>
           <li>
-            <a href="#services">Our Services</a>
+            <a href="#services">SERVICIOS</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#breakfast">DESAYUNOS</a>
+          </li>
+            <li>
+            <a href="#reviews">RESEÑAS</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#favourites">LOS MAS PEDIDOS</a>
           </li>
           <li>
-            <a href="#products">Products</a>
-          </li>
-          <li>
-            <a href="#newsletter">Newsletter</a>
+            <a href="#login">ACCEDER</a>
           </li>
         </ul>
       </Nav>
@@ -60,28 +60,28 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#services" onClick={() => setNavbarState(false)}>
-              Our Services
+            <a href="#book" onClick={() => setNavbarState(false)}>
+            Reserva
             </a>
           </li>
           <li>
-            <a href="#portfolio" onClick={() => setNavbarState(false)}>
-              Portfolio
+            <a href="#menu" onClick={() => setNavbarState(false)}>
+              Menu
             </a>
           </li>
           <li>
-            <a href="#testimonials" onClick={() => setNavbarState(false)}>
-              Testimonials
+            <a href="#delivery" onClick={() => setNavbarState(false)}>
+              Delivery
             </a>
           </li>
           <li>
-            <a href="#products" onClick={() => setNavbarState(false)}>
-              Products
+            <a href="#Contact" onClick={() => setNavbarState(false)}>
+              Contacto
             </a>
           </li>
           <li>
-            <a href="#newsletter" onClick={() => setNavbarState(false)}>
-              Newsletter
+            <a href="#login" onClick={() => setNavbarState(false)}>
+              Login
             </a>
           </li>
         </ul>
@@ -93,6 +93,7 @@ export default function Navbar() {
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
   align-items: center;
   padding: 0 4vw;
   .brand {
@@ -179,3 +180,4 @@ const ResponsiveNav = styled.div`
     }
   }
 `;
+

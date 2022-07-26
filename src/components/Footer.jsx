@@ -12,8 +12,7 @@ export default function Footer() {
         <div className="brand container">
           <img src={logo} alt="" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
-            repudiandae.
+           En Rolling Food tenemos como premisa la excelencia, porque consideramos que la hora de comer es la mejor hora del día
           </p>
           <ul>
             <li>
@@ -32,27 +31,25 @@ export default function Footer() {
         </div>
         <div className="about container">
           <div className="title">
-            <h3>About Us</h3>
+            <h3>Quienes somos</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            eligendi repellat laudantium blanditiis iure nulla, ut aliquam
-            itaque unde nesciunt cum veritatis perferendis vel expedita! Nam
+           Un grupo de jovenes ambiciosos que comparte dos pasiones: comer y codear
           </p>
         </div>
         <div className="contact container">
           <div className="title">
-            <h3>Contact Us</h3>
+            <h3>Contactanos</h3>
           </div>
-          <p>+91 1231231231</p>
-          <p>foodyummy@gmail.com</p>
-          <p>@foodyummy</p>
-          <p>412 Street, Ground Floor, India</p>
+          <p>+543815091218</p>
+          <p>rollingfood@gmail.com</p>
+          <p>@rollingfood</p>
+          <p>Av. Siempre Viva 742, Springfield</p>
         </div>
       </Section>
       <LowerFooter className="lower__footer">
         <h2>
-          Copyright &copy; 2021 <span>Food Yummy</span>
+          Todos los derechos reservados  &copy; 2022 <span>Rolling Food</span>
         </h2>
       </LowerFooter>
     </div>

@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import background from "../assets/portfolio.jpg";
-export default function Portfolio() {
+export default function Breakfast() {
   return (
-    <Section id="portfolio">
+    <Section id="breakfast">
       <div className="background">
         <img src={background} alt="" />
       </div>
       <div className="content">
-        <h1>Buy Premium Pan Free Hand Toast!</h1>
+        <h1>Elegí comer sano, elegí vivir mejor</h1>
         <h2>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
           molestias!
         </h2>
-        <button>Buy Now</button>
+        <button>DESAYUNOS</button>
       </div>
     </Section>
   );

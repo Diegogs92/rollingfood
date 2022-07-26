@@ -2,12 +2,11 @@ import React, { useEffect } from "react";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Newsletter from "./components/Newsletter";
-import Portfolio from "./components/Portfolio";
-import Products from "./components/Products";
+import Breakfast from "./components/Breakfast";
+import Favourites from "./components/Favourites";
 import ScrollToTop from "./components/ScrollToTop";
 import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
+import Reviews from "./components/Reviews";
 import scrollreveal from "scrollreveal";
 export default function App() {
   useEffect(() => {
@@ -22,9 +21,9 @@ export default function App() {
         nav,
         #home,
         #services,
-        #portfolio,
-        #testimonials,
-        #products,
+        #breakfast,
+        #reviews,
+        #favourites,
         #newsletter,
         .footer
     `,
@@ -40,10 +39,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Portfolio />
-      <Testimonials />
-      <Products />
-      <Newsletter />
+      <Breakfast />
+      <Reviews />
+      <Favourites />
       <Footer />
     </>
   );

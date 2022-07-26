@@ -5,7 +5,7 @@ import product2 from "../assets/product2.jpg";
 import product3 from "../assets/product3.jpg";
 import product4 from "../assets/product4.jpg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
-export default function Products() {
+export default function Favourites() {
   const data = [
     {
       image: product1,
@@ -30,7 +30,7 @@ export default function Products() {
     },
   ];
   return (
-    <Section id="products">
+    <Section id="favourites">
       <div className="title">
         <h1>
           <span>Favourite</span> All the time!

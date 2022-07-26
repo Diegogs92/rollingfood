@@ -1,18 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-import hero from "../assets/hero.jpg";
+import hero from "../assets/home.jpg";
 import heroDesign from "../assets/HeroDesign.png";
 export default function Hero() {
   return (
     <Section id="home">
       <div className="background">
-        <img src={hero} alt="Background Image" />
+        <img src={hero} alt="" />
       </div>
       <div className="content">
         <div className="sale">
           <img src={heroDesign} alt="" />
           <h1>
-            BIG SALE
+        CLIENTES NARANJA X
             <span>50% OFF</span>
           </h1>
         </div>
@@ -22,7 +22,7 @@ export default function Hero() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             aspernatur itaque, eius quia voluptas numquam!
           </em>
-          <button>ORDER NOW</button>
+          <button>HACE TU PEDIDO</button>
         </div>
       </div>
     </Section>
@@ -59,9 +59,9 @@ const Section = styled.section`
       h1 {
         color: white;
         position: absolute;
-        top: 25vh;
+        top: 15vh;
         left: 15vh;
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         span {
           display: block;
           font-size: 5vw;

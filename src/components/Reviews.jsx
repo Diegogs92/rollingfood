@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import avatar1 from "../assets/avatar1.jpeg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
-export default function Testimonials() {
+export default function Reviews() {
   return (
-    <Section id="testimonials">
+    <Section id="reviews">
       <div className="container">
         <div className="title">
           <h1>
-            <span>What</span> Customers Says
+            <span>Opiniones de </span>clientes
           </h1>
         </div>
         <div className="testimonials">
@@ -17,8 +17,8 @@ export default function Testimonials() {
               <img src={avatar1} alt="" />
             </div>
             <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
+              Muy rica la comida, <span>mejor la atención</span>{" "}
+              y el precio muy razonable
             </p>
           </div>
           <div className="testimonial">
@@ -26,8 +26,8 @@ export default function Testimonials() {
               <img src={avatar1} alt="" />
             </div>
             <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
+              Buen ambiente, <span> rápido servicio</span>{" "}
+              y cerca de todo
             </p>
           </div>
           <div className="testimonial">
@@ -35,8 +35,8 @@ export default function Testimonials() {
               <img src={avatar1} alt="" />
             </div>
             <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
+              Aun no conozco, <span> pero ya pedí por delivery.</span>{" "}
+              Llegó rápido y caliente
             </p>
           </div>
         </div>

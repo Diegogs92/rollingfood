@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <Section id="services">
       <div className="title">
-        <h1 className="yellow">What we do?</h1>
+        <h1 className="yellow">NUESTROS SERVICIOS</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
           incidunt magnam labore ipsam vero minima maxime doloribus dolores ipsa
@@ -19,26 +19,25 @@ export default function Services() {
         <div className="service">
           <img src={Services2} alt="" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
-          </p>
-          <button>Read More</button>
+            Curso de gastronomía gourmet <span>con certificado</span>{" "}
+            </p>
+          <button>Inscribite</button>
         </div>
         <div className="service yellow">
           <img src={Services1} alt="" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+           Llevamos tus platos favoritos<span> a tu evento</span>{" "}
+            en todo el país
           </p>
-          <button>Read More</button>
+          <button>+ info aqui</button>
         </div>
         <div className="service">
           <img src={Services3} alt="" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+           Reserva tu mesa en <span>cualquiera de</span>{" "}
+            nuestras sucursales
           </p>
-          <button>Read More</button>
+          <button>Reservar</button>
         </div>
       </div>
     </Section>
